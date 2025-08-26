@@ -123,18 +123,6 @@ The built files will be in the `dist/` directory.
 - **Theme Toggle**: Click the moon/sun icon to switch between light and dark modes
 - **View Toggle**: Switch between grid and list layouts using the toggle buttons
 
-## 🎨 Design System
-
-### Color Scheme
-- **Light Mode**: Clean whites and grays with blue primary color
-- **Dark Mode**: Dark backgrounds with high contrast text
-- **Accent Colors**: Blue primary, amber secondary for gradients
-
-### Typography
-- **Font Family**: Inter (Google Fonts fallback to system fonts)
-- **Font Weights**: 300, 400, 500, 600, 700, 800
-- **Responsive Sizing**: Scales appropriately across device sizes
-
 ### Components
 - **Cards**: Elevated design with hover effects and shadows
 - **Buttons**: Consistent styling with hover states and loading indicators
@@ -237,36 +225,6 @@ The built files will be in the `dist/` directory.
 - **Offline Support**: Service worker for offline functionality
 - **Book Recommendations**: AI-powered suggestions based on search history
 
-### Technical Improvements
-- **Unit Tests**: Jest and React Testing Library
-- **E2E Tests**: Playwright or Cypress
-- **Performance Monitoring**: Web Vitals tracking
-- **Analytics**: User behavior tracking
-- **PWA Features**: Install prompt and offline support
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**Search not working**
-- Check internet connection
-- Verify Open Library API is accessible
-- Clear browser cache and reload
-
-**Images not loading**
-- Book covers may not be available for all books
-- Fallback "No Cover" placeholder should display
-- Check network connectivity
-
-**Theme not persisting**
-- Ensure localStorage is enabled in browser
-- Check for browser privacy settings blocking storage
-
-**Performance issues**
-- Reduce number of results displayed
-- Check for browser extensions interfering
-- Ensure device meets minimum requirements
-
 ## 📄 License
 
 This project is open source and available under the MIT License.
@@ -280,14 +238,6 @@ This project is open source and available under the MIT License.
 - **React**: The library for web and native user interfaces
 - **Vite**: Next generation frontend tooling
 
-## 📞 Support
-
-For issues, questions, or contributions:
-1. Check the troubleshooting section above
-2. Review the code comments for implementation details
-3. Test the application thoroughly before deployment
-
----
 
 **Built with ❤️ using React and modern web technologies**
 
